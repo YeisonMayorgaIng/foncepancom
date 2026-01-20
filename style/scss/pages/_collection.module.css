@@ -1,0 +1,35 @@
+
+.header {
+  gap: 20px;
+}
+
+.div {
+  display: block;
+  min-height: 95vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/images/visitanos.png");
+  background-size: contain;
+  background-repeat: round;
+}
+
+.h2 {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding-left: 15px !important;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 780px) {
+  .header {
+    padding-left: 3rem !important;
+  }
+}

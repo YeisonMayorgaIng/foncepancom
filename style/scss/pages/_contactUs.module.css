@@ -1,0 +1,21 @@
+/* ContactUs.module.css */
+.heroSection {
+  display: block;
+  min-height: 58vh;
+  background-image: url(/images/contactUs.webp);
+  background-size: cover;
+}
+
+.header {
+  gap: 20px;
+}
+
+.title {
+  color: white;
+  font-weight: 400;
+}
+
+.subtitle {
+  color: white;
+  font-weight: 400;
+}
